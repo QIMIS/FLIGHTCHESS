@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.chm.flightchess.GAMETABLE"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+
+    <AbsoluteLayout
+        android:layout_width="@dimen/x320"
+        android:layout_height="@dimen/x320">
+
+        <ImageView
+
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/chessmap" />
+
+        <ImageView
+            android:id="@+id/RC_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x46"
+            android:layout_y="@dimen/y15"
+            android:background="@drawable/planerw" />
+
+        <ImageView
+            android:id="@+id/RC_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x21"
+            android:layout_y="@dimen/y37"
+            android:background="@drawable/planerw" />
+
+        <ImageView
+            android:id="@+id/RC_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x46"
+            android:layout_y="@dimen/y37"
+            android:background="@drawable/planerw" />
+
+        <ImageView
+            android:id="@+id/YC_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x19"
+            android:layout_y="@dimen/y231"
+            android:background="@drawable/planeyw" />
+
+        <ImageView
+            android:id="@+id/YC_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x44"
+            android:layout_y="@dimen/y231"
+            android:background="@drawable/planeyw" />
+
+        <ImageView
+            android:id="@+id/YC_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x19"
+            android:layout_y="@dimen/y209"
+            android:background="@drawable/planeyw" />
+
+        <ImageView
+            android:id="@+id/BC_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x254"
+            android:layout_y="@dimen/y15"
+            android:background="@drawable/planebw"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/BC_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x279"
+            android:layout_y="@dimen/y14"
+            android:background="@drawable/planebw" />
+
+        <ImageView
+            android:id="@+id/BC_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x254"
+            android:layout_y="@dimen/y36"
+            android:background="@drawable/planebw" />
+
+        <ImageView
+            android:id="@+id/BC_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x279"
+            android:layout_y="@dimen/y36"
+            android:background="@drawable/planebw" />
+
+        <ImageView
+            android:id="@+id/GC_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x280"
+            android:layout_y="@dimen/y231"
+            android:background="@drawable/planegw" />
+
+        <ImageView
+            android:id="@+id/GC_1"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x280"
+            android:layout_y="@dimen/y209"
+            android:background="@drawable/planegw" />
+
+        <ImageView
+            android:id="@+id/GC_3"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x255"
+            android:layout_y="@dimen/y231"
+            android:background="@drawable/planegw" />
+
+        <ImageView
+            android:id="@+id/GC_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x255"
+            android:layout_y="@dimen/y210"
+            android:background="@drawable/planegw" />
+
+        <ImageView
+            android:id="@+id/YC_4"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x44"
+            android:layout_y="@dimen/y209"
+            android:background="@drawable/planeyw" />
+
+        <ImageView
+            android:id="@+id/RC_2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_x="@dimen/x21"
+            android:layout_y="@dimen/y15"
+            android:background="@drawable/planerw" />
+
+
+    </AbsoluteLayout>
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y50"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+
+        <ImageButton
+            android:id="@+id/roller"
+            android:layout_width="@dimen/y67"
+            android:layout_height="@dimen/y67"
+            android:background="@drawable/touzi6"/>
+    </LinearLayout>
+
+</LinearLayout>
